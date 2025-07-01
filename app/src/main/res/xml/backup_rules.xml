@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!--
+   In this file you can specify which resources are included in the backup and restore
+   functionality. By default, all resources in your app are backed up.
+   The following is a list of resources that are not backed up.
+   To learn more about backup and restore, see the following resource:
+   https://developer.android.com/guide/topics/data/autobackup
+    -->
+    <exclude
+        domain="database"
+        path="." />
+    <exclude
+        domain="sharedpref"
+        path="." />
+    <exclude
+        domain="file"
+        path="." />
+    <exclude
+        domain="root"
+        path="." />
+    <exclude
+        domain="external"
+        path="." />
+</full-backup-content>
